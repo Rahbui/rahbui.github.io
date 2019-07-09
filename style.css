@@ -1,0 +1,110 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    padding-top: 20px;
+}
+.contact {
+    position: absolute;
+    top: 90%;
+}
+.contact a {
+    color: var(--warning);
+}
+.contact a:hover {
+    color: #b38809;
+}
+.description{
+    width: 75%;
+}
+.left{
+    left: 0;
+    font-size: 1em;
+    position: fixed;
+}
+.right {
+    right: 0;
+    overflow: auto;
+    font-size: 0.80em;
+    font-weight: 900;
+}
+.right img {
+    margin: auto;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.home {
+    height: 100vh;
+}
+.homecard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: inherit;
+    font-size: 1.2em;
+    width: 75%;
+}
+.Projects .card {
+    border: none;
+    margin: 10%;
+    background-color: inherit;
+}
+.Projects .card-text {
+    display: flex;
+    font-size: 1em;
+    justify-content: center;
+}
+.Projects img {
+    border-radius: 20px;
+    transition: transform .2s;
+    opacity: 0.8;
+}
+.Projects img:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+.languages {
+    padding-bottom: 10%;
+}
+.languages img {
+    object-fit: scale-down;
+    height: 20vh;
+    width: 20vw;
+}
+.Projects a {
+    color: inherit;
+}
+.languages .card {
+    border: none;
+    background-color: inherit;
+}
+#chevron {
+    opacity: 1;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.langcon{
+    font-size: 10vw !important;
+}
+@media only screen and (max-width: 600px) {
+    .Projects .card-title {
+        text-decoration: underline;
+    }
+    .Projects img {
+        display: none;
+    }
+    .langcon{
+        font-size: 20vw !important;
+    }
+  }
