@@ -104,6 +104,9 @@
     .Projects img {
         display: none;
     }
+    .languages h1 {
+        font-size: 8vw;
+    }
     .langcon{
         font-size: 20vw !important;
     }
