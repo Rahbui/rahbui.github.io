@@ -98,6 +98,42 @@
     font-size: 10vw !important;
 }
 @media only screen and (max-width: 600px) {
+    html {
+        overflow-x: hidden;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .split {
+        height: 100%;
+        width: 100%;
+        position: static;
+    }
+    .contact {
+        padding-left: 5%;
+    }
+    .left {
+        position: static;
+        height: 102vh;
+    }
+    .right {
+        position: static;
+        height: auto;
+    }
+    .home{
+        padding-top: 40vh;
+        height: 100vh;
+    }
+    .homecard {
+        position: static;
+        top: 0%;
+        left: 50%;
+        transform: translate(18%, 0%);
+        text-align: center;
+        background: inherit;
+        font-size: 1.2em;
+        width: 75%;
+    }
     .Projects .card-title {
         text-decoration: underline;
     }
