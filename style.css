@@ -97,6 +97,10 @@
 .langcon{
     font-size: 10vw !important;
 }
+.skill {
+    justify-content: center;
+    margin: auto;
+}
 @media only screen and (max-width: 600px) {
     html {
         overflow-x: hidden;
