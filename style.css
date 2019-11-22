@@ -154,6 +154,9 @@
     .Projects h1 {
         font-size: 8vw;
     }
+    .project-icon{
+        display: none;
+    }
     .languages h1 {
         font-size: 8vw;
     }
