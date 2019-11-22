@@ -70,7 +70,7 @@
     max-height: 350px;
 }
 .project-icon{
-    color:#edebe4;
+    color:#ffc107;
 }
 .Projects img:hover {
     transform: scale(1.05);
@@ -107,6 +107,11 @@
 .skill {
     justify-content: center;
     margin: auto;
+}
+@media only screen and (max-width: 1300px) {
+    .project-icon{
+        display: none !important;
+    }
 }
 @media only screen and (max-width: 600px) {
     html {
