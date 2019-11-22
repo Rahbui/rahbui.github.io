@@ -66,13 +66,19 @@
 .Projects img {
     border-radius: 20px;
     transition: transform .2s;
-    filter: brightness(50%);
+    filter: brightness(20%);
     max-height: 350px;
+}
+.project-icon{
+    color:#edebe4;
 }
 .Projects img:hover {
     transform: scale(1.05);
     filter: brightness(70%);
   }
+  .Projects img:hover + .project-icon {
+    display: none;
+}
 .languages {
     padding-bottom: 10%;
 }
