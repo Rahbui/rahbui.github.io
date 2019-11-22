@@ -155,7 +155,7 @@
         font-size: 8vw;
     }
     .project-icon{
-        display: none;
+        display: none !important;
     }
     .languages h1 {
         font-size: 8vw;
