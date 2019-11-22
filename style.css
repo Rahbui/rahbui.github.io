@@ -67,6 +67,7 @@
     border-radius: 20px;
     transition: transform .2s;
     filter: brightness(50%);
+    max-height: 350px;
 }
 .Projects img:hover {
     transform: scale(1.05);
